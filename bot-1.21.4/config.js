@@ -31,6 +31,7 @@ module.exports = {
   ollamaUrl: 'http://localhost:11434',
   ollamaModel: 'deepseek-coder:6.7b',
   aiTimeout: 120000,        // сколько ждать ответ ИИ (мс)
+  useAI: true,              // false = без ИИ, только простой разбор
 
   // Ломать блоки по пути? (на серверах обычно запрещено)
   canDig: false,
